@@ -1,0 +1,33 @@
+<div class="wb"></div>
+<div class="wb r"></div>
+<div class="wb m"></div>
+<div class="b"></div>
+<div class="b sc"></div>
+<div class="b tr"></div>
+<style>
+  *{background: #000000;
+  position: absolute;
+  height: 20px;
+  width: 20px}
+  .b {
+    background: #AF067C;
+    width: 300px;
+    margin: 82px 42px;
+    border-radius: 20px;
+  }
+  .sc{
+    margin-top:132px;
+    rotate: -4deg;
+  }
+  .tr{margin-top: 182px;}
+  .wb {
+    height: 50px;
+    background: #FFFFFF;
+    margin: 100px 72px;
+  }
+  .r {
+    height: 100px;
+    margin-left: 292px;
+  }
+  .m {margin: 150px 182px;}
+</style>
