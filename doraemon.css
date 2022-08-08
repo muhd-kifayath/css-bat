@@ -1,5 +1,5 @@
 body {
-    background: #00001c;
+    background: #000000;
 }
 .container {
     height: 500px;
@@ -19,7 +19,6 @@ div {position: absolute;}
     height: 150px;
     border-radius: 50% ;
     margin: 20px 104.5px;
-    border: 1px solid
 }
 .in-head {
     width: 164px;
@@ -129,18 +128,45 @@ div {position: absolute;}
 .whisker4 {margin-left: 226px;}
 .collar {
     width: 138.8px;
-    height: 8.7px;
+    height: 7.4px;
     background: #E63025;
-    border-radius: 2px;
-    margin: 180px 132px;
+    border-radius: 4px;
+    margin: 180px 130px;
+    border: 1px solid;
+    z-index: 1;
+}
+.bell{
+    width: 20px;
+    height: 20px;
+    background-color: #F7EC12;
+    border-radius: 50%;
+    border: 1px solid;
+    margin: 183px 190px;
     z-index: 1;
 }
 .curve {
-    width: 50px; 
+    width: 24px; 
     height: 10px;  
-    border: solid 1px #fff;
-    border-color: #fff transparent transparent transparent;
+    border: solid 1px;
+    border-color:#000000 transparent transparent transparent;
     border-radius: 50%/10px 10px 0 0;
+    z-index: 1;
+}
+.curve-1 {
+    margin: 186px 188px;
+}
+.curve-2 {
+    width: 26px;
+    margin: 188px 187px;
+}
+.keyhole {
+    height: 3px;
+    width: 4.5px;
+    margin: 195px 198.5px;
+    transform: rotate(-1deg);
+    background: #000000;
+    border-radius: 50%;
+    z-index: 1;
 }
 .body {
     width: 131.5px;
@@ -156,4 +182,38 @@ div {position: absolute;}
     margin-top: 170px;
 }
 .bodyl{margin-left: 130px;}
-.bodyr{margin-left: 247.5px;}
+.bodyr{margin-left: 247px;}
+.sock{
+    width: 136px;
+    height: 11.8px;
+    margin: 290px 132px;
+    border-bottom: 1px solid;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.leg{
+    width: 78.5px;
+    height: 26.6px;
+    margin-top: 298px;
+    z-index: -2;
+}
+.leg-left{
+    margin-left: 122px;
+    border-radius: 35px 5px 10px 22px;
+    border-right: 1px solid;
+}
+.leg-right {
+    margin-left: 201px;
+    border-radius: 5px 36px 22px 10px;
+    border-left: 1px solid;
+}
+.pocket-container {
+    width: 120px;
+    height: 108px;
+    border-radius: 48%;
+    margin: 172px 140px;
+    border: 1px solid;
+    border-top: 1px solid white;
+
+}
